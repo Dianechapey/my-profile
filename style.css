@@ -1,0 +1,87 @@
+body {
+	background-color: lightgrey;
+	font-family: Aptos SemiBold;
+} 
+
+h1 {
+	color: #FF8080;
+	font-family: Algerian;
+	}
+
+a { 
+	text-decoration: none;
+	color: #FF8080;
+	}
+
+a:hover { 
+	color: orchid;
+	}
+
+img{
+	width: 100px;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+} 
+
+
+@media	(max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+
+
+@media	(max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: lightpink;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	margin: 20px 0px;
+	text-align: center;
+} 
+
+.img-circle {
+	border-radius: 50%;
+}
+
+	
+.btn-yellow {
+	background-color: dimgrey;
+	padding: 13px 18px;
+	border-radius: 4px;
+}
+
+.btn-yellow:hover {
+	background-color: black;
+	color: #FF8080;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 60px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
